@@ -1,0 +1,14 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background-color: #1B1A26;
+  color: #F2EADF;
+  font-family: sans-serif;
+}
+
+img {
+  width: 250px;
+}

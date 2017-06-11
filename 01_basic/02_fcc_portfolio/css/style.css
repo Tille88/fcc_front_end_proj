@@ -1,0 +1,49 @@
+.top-container {
+  padding: 100px;
+  background-color: #979C9C;
+}
+
+.middle-container {
+  padding: 70px;
+  background-color: #348899;
+}
+
+.low-container {
+  padding: 70px;
+  background-color: #962D3E;
+}
+
+.thumbnail {
+  background-color: #343642;
+  padding: 5px;
+}
+
+.link {
+  color: white;
+}
+
+.social [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.fa {
+  color: white;
+}
+
+.fa:hover { 
+    background-color: #348899; 
+}
+
+.centered{
+    float: none;
+    margin: 0 auto;
+}

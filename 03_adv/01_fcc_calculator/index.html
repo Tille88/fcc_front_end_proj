@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC_calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <p>Minimalistic "Retro" Calculator</p>
+  <br>
+  <div id="output">
+    0
+  </div>
+  <div id="output-full">
+    Full Operation in Mem: 0
+  </div>
+
+  <div>
+    <button id="AC" onClick="clearAll()">Clear</button>
+  </div>
+
+
+  <div>
+    <button value="7" id="7" class="lower" onClick="addOperation(this.value)">7</button>
+    <button value="8" id="8" class="lower" onClick="addOperation(this.value)">8</button>
+    <button value="9" id="9" class="lower" onClick="addOperation(this.value)">9</button>
+    <button value="/" id="/" class="lower" onClick="addOperation(this.value)">&divide;</button>
+  </div>
+
+  <div>
+    <button value="4" id="4" class="lower" onClick="addOperation(this.value)">4</button>
+    <button value="5" id="5" class="lower" onClick="addOperation(this.value)">5</button>
+    <button value="6" id="6" class="lower" onClick="addOperation(this.value)">6</button>
+    <button value="*" id="*" class="lower" onClick="addOperation(this.value)">*</button>
+  </div>
+
+  <div>
+    <button value="1" id="1" class="lower" onClick="addOperation(this.value)">1</button>
+    <button value="2" id="2" class="lower" onClick="addOperation(this.value)">2</button>
+    <button value="3" id="3" class="lower" onClick="addOperation(this.value)">3</button>
+    <button value="+" id="+" class="lower" onClick="addOperation(this.value)">+</button>
+  </div>
+
+  <div>
+    <button value="0" id="0" class="lower" onClick="addOperation(this.value)">0</button>
+    <button value="." id="." class="lower" onClick="addOperation(this.value)">.</button>
+    <button value="=" id="eq" class="lower" onClick="evaluateAll()">=</button>
+    <button value="-" id="-" class="lower" onClick="addOperation(this.value)">-</button>
+  </div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

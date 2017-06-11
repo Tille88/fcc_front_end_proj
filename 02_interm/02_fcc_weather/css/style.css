@@ -1,0 +1,19 @@
+
+body {
+	background-color: black;
+	color: white;
+}
+
+div {
+	justify-content:center;
+}
+
+i {
+	color: rgba(255,255,255,0.5);
+	font-size: 67px;
+}
+
+a {
+	color:white;
+}
+

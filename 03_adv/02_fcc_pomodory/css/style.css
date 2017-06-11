@@ -1,0 +1,41 @@
+body {
+	background-color: #354952;
+}
+
+.test {
+	padding: 170px;
+}
+
+#time-display {
+	color: #678354;
+	font-size: 250%;
+}
+
+
+
+.social [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.fa {
+  color: white;
+}
+
+.fa:hover { 
+    background-color: #678354;
+		color: black;
+}
+
+.centered{
+    float: none;
+    margin: 0 auto;
+}

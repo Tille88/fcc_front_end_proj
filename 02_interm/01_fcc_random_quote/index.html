@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC_QuoteAPI</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<!-- 
+Quote API instructions:
+https://quotesondesign.com/api-v4-0/
+Twitter Button instructions:
+https://dev.twitter.com/web/tweet-button
+-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+<h1>Simple Tweet Generator</h1>
+
+<p>Using the quotesondesign.com API for quotes since that was suggested as having clear documentation</p>
+
+<p>Only worked on the functionality - APIs can be difficult in China, and Twitter is blocked forcing me to rely on a shaky VPN</p>
+
+<a class="button" id='get-another-quote-button'>Generate Quote</a> 
+
+<a class="button twitter-share-button" id="twitter-share" target="_blank"
+ href="https://twitter.com/intent/tweet?text=Not%20Loaded">
+<i class="fa fa-twitter"></i>Tweet Quote</a>
+
+<p id='quote-content'></p>
+
+<p id='quote-author'></p>
+
+
+
+
+<!--
+<a class="twitter-share-button" id="twitter-share"
+  href="https://twitter.com/intent/tweet?text=Not%20Loaded">
+Tweet</a>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+-->
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

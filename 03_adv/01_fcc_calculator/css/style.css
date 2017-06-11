@@ -1,0 +1,31 @@
+button {
+  width: 20%;
+  background-color: #e7e7e7;  
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.lower {
+  width: 20%;
+}
+
+#output {
+  width: 83%;
+  background-color: #e7e7e7;  
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;}
+
+.container {
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Source Code Pro', monospace;
+}
